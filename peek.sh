@@ -1,4 +1,5 @@
 file=$1
-head -n 3 $file
+number=$2
+head -n $number $file
 echo ...
-tail -n 3 $file
+tail -n $number $file
